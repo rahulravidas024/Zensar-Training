@@ -33,7 +33,7 @@ public class DisplayDayOfWeek {
 		default:
 			System.out.println("Enter correct range form 1 to 7");
 		}
-
+		sc.close();
 	}
 
 }

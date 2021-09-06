@@ -24,6 +24,7 @@ public class CheckVowel {
 		default:
 			System.out.println(alpha + " is Consonent");
 		}
+		sc.close();
 	}
 
 }

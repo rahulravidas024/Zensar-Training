@@ -1,9 +1,9 @@
 package temp;
+
 public class Inventory {
 	static float serviceTax = 18.5f;
 	private int itemNo, itemCost, itemQuantity;
 	private String itemName;
-	
 
 	public void setItemNo(int iNum) {
 		itemNo = iNum;
@@ -46,7 +46,6 @@ public class Inventory {
 		itemCost = iCost;
 		itemQuantity = iQuantity;
 		itemName = iName;
-		System.out.println("Details Saved");
 	}
 
 	public void displayDetails() {

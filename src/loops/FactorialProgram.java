@@ -2,20 +2,17 @@ package loops;
 
 import java.util.Scanner;
 
-public class SumOfAllEvenNumber {
+public class FactorialProgram {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter n Number: ");
+		System.out.print("Enter Number to Find Factorial: ");
 		int num = sc.nextInt();
-		int i, sum = 0;
+		int i, fact = 1;
 		for (i = 1; i <= num; i++) {
-			if (i % 2 == 0) {
-				sum = sum + i;
-			}
-
+			fact = fact * i;
 		}
-		System.out.println("Sum Of All Even Number is: " + sum);
+		System.out.println("Factorial of " + num + " is: " + fact);
 		sc.close();
 	}
 

@@ -19,6 +19,7 @@ public class Maximum {
 			System.out.println("Second Number is Largest");
 		else
 			System.out.println("Third Number is Largest");
+		sc.close();
 	}
 
 }

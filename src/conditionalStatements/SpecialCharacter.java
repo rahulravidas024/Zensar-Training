@@ -14,6 +14,7 @@ public class SpecialCharacter {
 			System.out.println(ch + " is Number.");
 		else
 			System.out.println(ch + " is Special Character.");
+		sc.close();
 	}
 
 }

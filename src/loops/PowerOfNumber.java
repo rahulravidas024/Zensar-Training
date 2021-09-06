@@ -2,17 +2,20 @@ package loops;
 
 import java.util.Scanner;
 
-public class Table {
+public class PowerOfNumber {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number: ");
 		int num = sc.nextInt();
-		int i = 1;
-		do {
-			System.out.println(num * i);
-			i++;
-		} while (i <= 10);
+		System.out.println("Enter Power: ");
+		int p = sc.nextInt();
+		int result = 1;
+		while (p != 0) {
+			result = num * result;
+			p--;
+		}
+		System.out.println("Result: " + result);
 		sc.close();
 	}
 

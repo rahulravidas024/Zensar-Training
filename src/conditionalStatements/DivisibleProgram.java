@@ -14,6 +14,7 @@ public class DivisibleProgram {
 			System.out.println("Number is divisible by 11");
 		else
 			System.out.println("Number is not divisible by both 5 and 11");
+		sc.close();
 	}
 
 }

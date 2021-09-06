@@ -15,6 +15,7 @@ public class SumOfAllOddNumber {
 			}
 		}
 		System.out.println("Sum Of All Odd Number is: " + sum);
+		sc.close();
 	}
 
 }

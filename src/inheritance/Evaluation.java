@@ -1,5 +1,5 @@
 package inheritance;
 
-public class Evaluation extends Exam{
+public class Evaluation extends Exam {
 
 }

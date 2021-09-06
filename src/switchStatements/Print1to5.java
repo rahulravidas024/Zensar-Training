@@ -1,13 +1,11 @@
 package switchStatements;
+public class Print1to5 {
 
-import java.util.Scanner;
-
-public class PrintNumberInWords {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Number Between 1 to 5: ");
-		int num = sc.nextInt();
-		switch (num) {
+		int i;
+		for(i=1; i<=5; i++)
+		switch(i)
+		{
 		case 1:
 			System.out.println("One");
 			break;
@@ -24,8 +22,8 @@ public class PrintNumberInWords {
 			System.out.println("Five");
 			break;
 		default:
-			System.out.println("Invalid Input");
+			System.out.println("I value is less than 1 or greater than 5");
 		}
-		sc.close();
 	}
+
 }

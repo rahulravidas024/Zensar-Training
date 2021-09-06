@@ -12,6 +12,7 @@ public class CheckCapitalSmall {
 			System.out.println("Alphabet is Small");
 		else if (alpha >= 'A' && alpha <= 'Z')
 			System.out.println("Alphabet is Capital");
+		sc.close();
 	}
 
 }

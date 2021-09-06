@@ -27,6 +27,7 @@ public class Calculator {
 			System.out.print("Division is: " + (num1 / num2));
 		else
 			System.out.println("Invalid Input");
+		sc.close();
 	}
 
 }

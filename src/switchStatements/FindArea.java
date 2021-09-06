@@ -43,15 +43,13 @@ public class FindArea {
 			System.out.println("Enter Base: ");
 			float base = sc.nextFloat();
 			float areaOfRightAngleTriangle = (base * height) / 2;
-			System.out.println("Area Of Right Angle Traingle is: "
-					+ areaOfRightAngleTriangle);
+			System.out.println("Area Of Right Angle Traingle is: " + areaOfRightAngleTriangle);
 			break;
 		case 5:
 			System.out.print("Enter Radius: ");
 			radius = sc.nextFloat();
 			float circumferenceOfCircle = 2 * pie * radius;
-			System.out.println("Circumference Of Circle: "
-					+ circumferenceOfCircle);
+			System.out.println("Circumference Of Circle: " + circumferenceOfCircle);
 			break;
 		case 6:
 			System.out.print("Enter Side: ");
@@ -62,6 +60,7 @@ public class FindArea {
 		default:
 			System.out.println("Enter Valid Input");
 		}
+		sc.close();
 	}
 
 }

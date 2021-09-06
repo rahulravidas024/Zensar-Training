@@ -36,6 +36,7 @@ public class Calculator {
 		default:
 			System.out.println("Invalid Case");
 		}
+		sc.close();
 	}
 
 }

@@ -14,6 +14,7 @@ public class Integer {
 			System.out.println("Number is Negative.");
 		else if (num == 0)
 			System.out.println("Number is Zero.");
+		sc.close();
 	}
 
 }

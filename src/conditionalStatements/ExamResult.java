@@ -28,7 +28,7 @@ public class ExamResult {
 			System.out.println("By Third Class");
 		else
 			System.out.println("FAIL");
-
+		sc.close();
 	}
 
 }

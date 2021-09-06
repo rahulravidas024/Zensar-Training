@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TotalNumberOfDays {
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Month in Number For Example: ");
 		System.out.println("Type 1 for January");
@@ -21,8 +21,7 @@ public class TotalNumberOfDays {
 		System.out.println("Type 12 for December");
 		System.out.println("___________________________");
 		int num = sc.nextInt();
-		switch(num)
-		{
+		switch (num) {
 		case 1:
 			System.out.println("Total number of days in January: 31");
 			break;
@@ -59,8 +58,9 @@ public class TotalNumberOfDays {
 		case 12:
 			System.out.println("Total number of days in December: 31");
 			break;
-		default: 
+		default:
 			System.out.println("Enter Valid Input");
 		}
+		sc.close();
 	}
 }

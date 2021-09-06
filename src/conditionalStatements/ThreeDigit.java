@@ -17,6 +17,7 @@ public class ThreeDigit {
 		} else {
 			System.out.println("The Number is Not Three Digit");
 		}
+		sc.close();
 	}
 
 }

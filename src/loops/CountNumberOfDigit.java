@@ -1,21 +1,20 @@
-package switchStatements;
+package loops;
 
 import java.util.Scanner;
 
-public class CheckEvenOdd {
+public class CountNumberOfDigit {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number: ");
 		int num = sc.nextInt();
-		switch (num % 2) {
-		case 0:
-			System.out.println("Number is EVEN");
-			break;
-		case 1:
-			System.out.println("Number is ODD");
-			break;
+		int count = 0;
+		while (num != 0) {
+			int i = num % 10;
+			count++;
+			num = num / 10;
 		}
+		System.out.println("Total Number of Digit is: " + count);
 		sc.close();
 	}
 
