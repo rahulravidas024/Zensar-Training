@@ -8,7 +8,7 @@ public class EvenOddTask {
 	Scanner sc = new Scanner(System.in);
 
 	public void getArrayElements() {
-		System.out.println("Enter Array Elements: ");
+		System.out.println("Enter 5 Array Elements: ");
 		for (int i = 0; i < arr.length; i++)
 			arr[i] = sc.nextInt();
 	}
