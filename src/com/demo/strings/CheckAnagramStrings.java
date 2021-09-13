@@ -1,4 +1,4 @@
-package com.demo.loops;
+package com.demo.strings;
 
 import java.util.Arrays;
 
