@@ -23,11 +23,9 @@ public class Employee3 implements Comparable<Employee3> {
 
 	@Override
 	public int compareTo(Employee3 o) {
-		if (name.equals(o.name)) {
-			return age - o.age;
-		} else {
-			return name.compareTo(o.name);
-		}
+		int name = this.name.compareTo(o.name);
+		int age = this.age-o.age;
+		return (name==0) ? age : name;
 	}
 
 }
